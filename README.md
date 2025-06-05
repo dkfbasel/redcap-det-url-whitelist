@@ -14,4 +14,4 @@ This module blocks the testing of DET URLs not in the whitelist and prevents sav
 1. Clone or download the repository into your REDCap `modules` directory:
    ```bash
    cd /redcap/modules
-   git clone https://github.com/your-org/data-entry-trigger-url-validator.git data_entry_trigger_url_validator_v1.0
+   git clone https://github.com/dkfbasel/redcap-det-url-whitelist.git
