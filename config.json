@@ -1,0 +1,27 @@
+{
+	"name": "DET URL Whitelist",
+	"namespace": "DetUrlWhitelist\\DETURLWhitelist",
+	"prefix": "det_url_whitelist",
+	"version": "1.0",
+	"type": "module",
+	"enable-every-page-hooks-on-system-pages": true,
+	"authors": [
+		{
+			"name": "Vu Duong",
+			"email": "vu.duong@usb.ch",
+			"institution": "Department Clinical Trial, University Hospital Basel"
+		}
+	],
+	"description": "Blocks Data Entry Triggers (DETs) unless the DET URL is in a system-level whitelist.",
+	"framework-version": 16,
+	"system-settings": [
+		{
+			"key": "allowed_det_urls",
+			"name": "Allowed DET URLs",
+			"type": "text",
+			"repeatable": true,
+			"required": false,
+			"description": "List of allowed DET URLs. If a project uses a different DET URL, DET will be blocked."
+		}
+	]
+}
